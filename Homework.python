@@ -2,10 +2,11 @@ first = "Jeanne"
 last = "Erickson Cooley"
 age = 46
 print first, last, age
+import math
 sideA = 12.55
 sideB = 17.85
-#sideC = math.sqrt((sideA * sideA) + (sideB * sideB))
-#print sideC
+sideC = math.sqrt((sideA * sideA) + (sideB * sideB))
+print sideC
 operand1 = 95
 operand2 = 64.5
 print (operand1 + operand2)
@@ -13,3 +14,4 @@ print (operand1 - operand2)
 print (operand1 * operand2)
 print (operand1 / operand2)
 print (operand1 % operand2)
+#by assigning variable names to 95 & 64.5 (operand1 & operand2) we can change the value of either on just one line of code, not in each of the problems.
